@@ -30,13 +30,13 @@
 
         .paginate_button.page-item a:hover {
             outline: none;
-            background-color: #1976F0;
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1976F0), color-stop(100%, #0F54B0));
-            background: -webkit-linear-gradient(top, #1976F0 0%, #0F54B0 100%);
-            background: -moz-linear-gradient(top, #1976F0 0%, #0F54B0 100%);
-            background: -ms-linear-gradient(top, #1976F0 0%, #0F54B0 100%);
-            background: -o-linear-gradient(top, #1976F0 0%, #0F54B0 100%);
-            background: linear-gradient(to bottom, #1976F0 0%, #0F54B0 100%);
+            background-color: #2b2b2b;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));
+            background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+            background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+            background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+            background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+            background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);
             box-shadow: inset 0 0 3px #111;
             color: #fff;
             border: 1px solid #111;
@@ -116,6 +116,7 @@
                                 <th>Company <br> Group</th>
                                 <th>Product Code</th>
                                 <th>Product Name</th>
+                                <th>Max qty</th>
                                 <th>Packing</th>
                                 <th>Enlist.Code</th>
                                 <th>Unit Price</th>
@@ -263,6 +264,10 @@
                     {
                         data: 'product_name',
                         name: 'product_name'
+                    },
+                    {
+                        data: 'max_qty',
+                        name: 'max_qty'
                     },
                     {
                         data: 'packing',
