@@ -213,7 +213,6 @@
                 $("#sub_category").html(result);
             },
             error: function (msg) {
-
             },
         }); 
         })
